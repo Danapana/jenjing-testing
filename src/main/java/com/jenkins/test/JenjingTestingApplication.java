@@ -16,7 +16,7 @@ public class JenjingTestingApplication {
 		logger.info("This in init method...");
 	}
 
-	public static void init5() {
+	public static void init() {
 		logger.info("This in init method...");
 	}
 	public static void main(String[] args) {
