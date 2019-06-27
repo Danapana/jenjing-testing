@@ -16,6 +16,9 @@ public class JenjingTestingApplication {
 		logger.info("This in init method...");
 	}
 
+	public static void init5() {
+		logger.info("This in init method...");
+	}
 	public static void main(String[] args) {
 		logger.info("main executing");
 		SpringApplication.run(JenjingTestingApplication.class, args);
